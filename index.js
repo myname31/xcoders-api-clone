@@ -82,7 +82,7 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", async (req, res) => {
-	res.sendFile(process.cwd() + "/views/index.html");
+	res.sendFile(process.cwd() + "/docs.html");
 });
 
 app.get("/docs", async (req, res) => {
